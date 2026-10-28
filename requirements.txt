@@ -3,3 +3,7 @@ pandas
 torch
 argparse
 opencv-python
+streamlit
+plotly
+matplotlib
+PyYAML

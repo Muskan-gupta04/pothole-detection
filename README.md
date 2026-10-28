@@ -1,5 +1,16 @@
 # YOLO Pothole Detection
 
+## Results dashboard
+
+Install the project dependencies, then run the interactive dashboard from this folder:
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run dashboard.py
+```
+
+The dashboard reads each run's `results.csv` and saved plot images directly from `results/`. It shows final precision, recall, calculated F1, mAP, losses, epoch curves, saved graphs, and a reference comparison with the paper benchmark. Paper numbers are shown for context; differences in datasets and evaluation setup mean they are not a controlled head-to-head comparison.
+
 Potholes are a major problem in urban areas, causing damage to vehicles and posing safety risks to drivers and pedestrians. This project aims to leverage the YOLO (You Only Look Once) object detection algorithm to accurately detect and classify potholes in real-time, providing a valuable tool for road maintenance and safety improvements.
 
 # Getting Started
